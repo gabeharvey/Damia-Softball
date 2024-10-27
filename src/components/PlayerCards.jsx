@@ -179,7 +179,7 @@ function PlayerCards() {
       justify="center"
       p={{ base: 5, md: 10 }}
       minH="100vh" 
-      bg="white" 
+      bg="transparent" 
       mt={{ base: 12, md: 16 }} 
       mb={{ base: 12, md: 16 }} 
     >
