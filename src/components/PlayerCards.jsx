@@ -55,7 +55,7 @@ function Card({ frontImg, bio, funFact, flipSound, cardNumber }) {
               p={2}
               borderBottomRadius="12px"
             >
-              Damia McGarity #{cardNumber} 
+              Damia McGarity #5 
             </Text>
           </Box>
         </Box>
