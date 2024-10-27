@@ -33,6 +33,7 @@ function Media() {
       <Flex direction="column" alignItems="center" width="100%">
         {mediaArticles.map((article, index) => (
           <MotionBox
+            fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold"
             key={index}
             w={{ base: '90%', md: '500px' }}
             h="120px"

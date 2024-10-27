@@ -46,10 +46,10 @@ function Academics() {
           transition={{ duration: 2, ease: 'easeOut' }}
         >
           <Link
+            fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold"
             href="/path-to-transcripts" 
             isExternal
             color="#38393d"
-            fontWeight="bold"
             fontSize="lg"
             p={3}
             _hover={{ color: '#005A9C', textDecoration: 'underline' }}
@@ -78,7 +78,7 @@ function Academics() {
           <Text fontWeight="bold" fontSize="lg" color="#005A9C" mb="2">
             Academic Achievements
           </Text>
-          <VStack spacing={2} align="start">
+          <VStack spacing={2} align="start" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">
             {academicAchievements.map((achievement, index) => (
               <Text key={index} color="#38393d">
                 - {achievement}

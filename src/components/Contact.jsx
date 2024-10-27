@@ -36,10 +36,11 @@ function Contact() {
       >
         <Grid gap={4}>
           <FormControl id="name">
-            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive">
+            <FormLabel color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">
               Name
             </FormLabel>
             <Input
+              fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold"
               placeholder="Your Name"
               bgColor="#FFFFFF"
               color="#38383d"
@@ -49,10 +50,11 @@ function Contact() {
           </FormControl>
 
           <FormControl id="email">
-            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive">
+            <FormLabel color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">
               Email
             </FormLabel>
             <Input
+              fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold"
               type="email"
               placeholder="Your Email"
               bgColor="#FFFFFF"
@@ -63,10 +65,11 @@ function Contact() {
           </FormControl>
 
           <FormControl id="message">
-            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive">
+            <FormLabel color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">
               Message
             </FormLabel>
             <Textarea
+              fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold"
               placeholder="Your Message"
               bgColor="#FFFFFF"
               color="#38393d"

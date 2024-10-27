@@ -94,17 +94,17 @@ function SoftballStatTracker() {
           <Text 
             color="#FFFFFF" 
             fontWeight="bold" 
-            fontFamily="'Pacifico', cursive" 
+            fontFamily="'Roboto+Condensed', system-ui"
             fontSize="md"
             textAlign="center" 
           >
             Softball Stats
           </Text>
-          <Text color="#FFFFFF">Hits: {averages.hits}</Text>
-          <Text color="#FFFFFF">Home Runs: {averages.homeRuns}</Text>
-          <Text color="#FFFFFF">RBIs: {averages.RBIs}</Text>
-          <Text color="#FFFFFF">Stolen Bases: {averages.stolenBases}</Text>
-          <Text color="#FFFFFF">Batting Average: {averages.battingAverage}</Text>
+          <Text color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">Hits: {averages.hits}</Text>
+          <Text color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">Home Runs: {averages.homeRuns}</Text>
+          <Text color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">RBIs: {averages.RBIs}</Text>
+          <Text color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">Stolen Bases: {averages.stolenBases}</Text>
+          <Text color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">Batting Average: {averages.battingAverage}</Text>
         </MotionBox>
       </Flex>
       <MotionBox
@@ -119,25 +119,25 @@ function SoftballStatTracker() {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 5, ease: 'easeOut' }}
       >
-        <Heading fontSize="lg" color="#000000" fontFamily="'Pacifico', cursive" mb={4}>
+        <Heading fontSize="lg" color="#000000" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold" mb={4}>
           Game Stats:
         </Heading>
         {games.length === 0 ? (
-          <Text color="#000000">No games added yet.</Text>
+          <Text color="#000000" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">No games added yet.</Text>
         ) : (
           <Grid gap={4}>
             {games.map((game, index) => (
               <Box key={index} p={3} bgColor="transparent" borderRadius="8px">
-                <Text color="#000000" fontWeight="bold" fontFamily="'Pacifico', cursive">
+                <Text color="#000000" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">
                   Match {index + 1} - Opponent:
                 </Text>
-                <Text color="#000000">Opponent: {game.opponent}</Text>
-                <Text color="#000000">Date: {game.date}</Text>
-                <Text color="#000000">Hits: {game.hits}</Text>
-                <Text color="#000000">Home Runs: {game.homeRuns}</Text>
-                <Text color="#000000">RBIs: {game.RBIs}</Text>
-                <Text color="#000000">Stolen Bases: {game.stolenBases}</Text>
-                <Text color="#000000">Batting Average: {game.battingAverage}</Text>
+                <Text color="#000000" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">Opponent: {game.opponent}</Text>
+                <Text color="#000000" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">Date: {game.date}</Text>
+                <Text color="#000000" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">Hits: {game.hits}</Text>
+                <Text color="#000000" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">Home Runs: {game.homeRuns}</Text>
+                <Text color="#000000" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">RBIs: {game.RBIs}</Text>
+                <Text color="#000000" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">Stolen Bases: {game.stolenBases}</Text>
+                <Text color="#000000" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold">Batting Average: {game.battingAverage}</Text>
               </Box>
             ))}
           </Grid>
@@ -160,10 +160,11 @@ function SoftballStatTracker() {
       >
         <VStack spacing={4} align="stretch">
           <FormControl>
-            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive" fontSize="lg">
+            <FormLabel color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold" fontSize="lg">
               Opponent
             </FormLabel>
             <Input
+              fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold"
               bgColor="#FFFFFF"
               color="#38393d"
               value={gameInfo.opponent}
@@ -173,10 +174,11 @@ function SoftballStatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive" fontSize="lg">
+            <FormLabel color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold" fontSize="lg">
               Date
             </FormLabel>
             <Input
+              fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold"
               type="date"
               bgColor="#FFFFFF"
               color="#38393d"
@@ -186,10 +188,11 @@ function SoftballStatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive" fontSize="lg">
+            <FormLabel color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold" fontSize="lg">
               Hits
             </FormLabel>
             <Input
+              fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold"
               bgColor="#FFFFFF"
               color="#38393d"
               value={stats.hits}
@@ -200,10 +203,11 @@ function SoftballStatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive" fontSize="lg">
+            <FormLabel color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold" fontSize="lg">
               Home Runs
             </FormLabel>
             <Input
+              fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold"
               bgColor="#FFFFFF"
               color="#38393d"
               value={stats.homeRuns}
@@ -214,10 +218,11 @@ function SoftballStatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive" fontSize="lg">
+            <FormLabel color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold" fontSize="lg">
               RBIs
             </FormLabel>
             <Input
+              fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold"
               bgColor="#FFFFFF"
               color="#38393d"
               value={stats.RBIs}
@@ -228,10 +233,11 @@ function SoftballStatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive" fontSize="lg">
+            <FormLabel color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold" fontSize="lg">
               Stolen Bases
             </FormLabel>
             <Input
+              fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold"
               bgColor="#FFFFFF"
               color="#38393d"
               value={stats.stolenBases}
@@ -242,10 +248,11 @@ function SoftballStatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive" fontSize="lg">
+            <FormLabel color="#FFFFFF" fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold" fontSize="lg">
               Batting Average
             </FormLabel>
             <Input
+              fontFamily="'Roboto+Condensed', system-ui" fontWeight="bold"
               bgColor="#FFFFFF"
               color="#38393d"
               value={stats.battingAverage}

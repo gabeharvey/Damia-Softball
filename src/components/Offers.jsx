@@ -6,12 +6,12 @@ const MotionBox = motion.create(Box);
 function Offers() {
   const offers = [
     {
-      schoolName: "University",
+      schoolName: "University of Texas",
       logo: "texas-logo.png", 
       description: "Full athletic scholarship",
     },
     {
-      schoolName: "College",
+      schoolName: "University of Texas San Antonio",
       logo: "utsa-logo.png",
       description: "Full athletic scholarship",
     },
