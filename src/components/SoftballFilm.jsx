@@ -31,7 +31,7 @@ function VideoCard({ videoSrc, title, description }) {
           />
         </Box>
         <Box p={3} textAlign="center" bgColor="#F5F5F5" h="30%">
-          <Text fontSize="2xl" fontWeight="semibold" color="#38393d" fontFamily="'Passion One', sans-serif">
+          <Text fontSize="2xl" fontWeight="semibold" color="#38393d" fontFamily="'Pacifico', cursive">
             {title}
           </Text>
           <Text mt={2} fontSize="lg" fontWeight="bold" color="#38393d" fontFamily="'Roboto+Condensed', system-ui">
@@ -103,7 +103,7 @@ function SoftballFilm() {
       mt={{ base: 12, md: 16 }}
       mb={{ base: 12, md: 16 }}
     >
-      <Text fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Passion One', sans-serif">
+      <Text fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive">
         Softball Film
       </Text>
       <SimpleGrid columns={columns} spacing={{ base: 3, sm: 5 }} justifyItems="center">

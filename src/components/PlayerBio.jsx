@@ -32,24 +32,24 @@ function PlayerProfile() {
       bgPosition="center"
       bgRepeat="no-repeat"
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Passion One', sans-serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive" mb="5">
         {player.name}
       </Heading>
       <Flex flexDirection="row" flexWrap="wrap" justifyContent="center" alignItems="center">
         <MotionBox
-  bgImage={`url(${player.frontImg})`} 
-  bgSize="cover"
-  bgPosition="center"
-  borderRadius="12px"
-  borderColor="#EF3E42"
-  borderWidth="3px"
-  backgroundColor="#FFFFFF" 
-  minH="500px"
-  minW="350px"
-  m="5"
-  initial={{ scale: 0.9, opacity: 0.5 }}
-  animate={{ scale: 1, opacity: 1 }}
-  transition={{ duration: 2, ease: 'easeOut' }}
+            bgImage={`url(${player.frontImg})`} 
+            bgSize="cover"
+            bgPosition="center"
+            borderRadius="12px"
+            borderColor="#EF3E42"
+            borderWidth="3px"
+            backgroundColor="#FFFFFF" 
+            minH="500px"
+            minW="350px"
+            m="5"
+            initial={{ scale: 0.9, opacity: 0.5 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 2, ease: 'easeOut' }}
         >
         </MotionBox>
         <MotionBox
@@ -57,8 +57,8 @@ function PlayerProfile() {
           h="700px"
           minW="320px"
           m="5"
-          bgColor="#ebebeb"
-          bgImage="linear-gradient(-45deg, #ebebeb 25%, transparent 25%, transparent 50%, #ebebeb 50%, #ebebeb 75%, transparent 75%, transparent)"
+          bgColor="#FFFFFF"
+          bgImage="linear-gradient(-45deg, #FFFFFF 25%, transparent 25%, transparent 50%, #FFFFFF 50%, #FFFFFF 75%, transparent 75%, transparent)"
           bgSize="1px 1px"
           borderRadius="12px"
           borderWidth="5px"
@@ -72,7 +72,7 @@ function PlayerProfile() {
           <Grid gap={4}>
             {player.bioCategories.map((category, index) => (
               <Box key={index} p={3} bgColor="transparent" borderRadius="8px">
-                <Text color="#38393d" fontWeight="bold" fontFamily="'Passion One', sans-serif" fontSize="lg">
+                <Text color="#38393d" fontWeight="bold" fontFamily="'Pacifico', cursive" fontSize="lg">
                   {category.title}
                 </Text>
                 <Text color="#38393d" fontFamily="'Roboto+Condensed', system-ui" fontSize="lg" fontWeight="semibold" mt={1}>

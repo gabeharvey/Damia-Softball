@@ -63,10 +63,10 @@ function Card({ frontImg, bio, flipSound }) {
           transform="rotateY(180deg)"
           p={5}
         >
-          {/* <Text fontSize="2xl" fontWeight="bold" color="#F28C28" fontFamily="'Passion One', sans-serif">
+          {/* <Text fontSize="2xl" fontWeight="bold" color="#F28C28" fontFamily="'Pacifico', cursive">
             {name}
           </Text> */}
-          <Text mt={4} color="#F8F8F8" fontFamily="'Passion One', sans-serif" fontSize="xl" fontWeight="medium" textAlign="center">
+          <Text mt={4} color="#F8F8F8" fontFamily="'Pacifico', cursive" fontSize="xl" fontWeight="medium" textAlign="center">
           {bio}
           </Text>
         </Box>
@@ -137,10 +137,10 @@ function PlayerCards() {
       mt={{ base: 12, md: 16 }} 
       mb={{ base: 12, md: 16 }} 
     >
-      <Text fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Passion One', sans-serif">
+      <Text fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive">
         Player Cards    
       </Text>
-      <Text fontSize="2xl" fontWeight="medium" color="#EF3E42" fontFamily="'Passion One', sans-serif">
+      <Text fontSize="2xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive">
         Click on card for more info
         </Text>
 

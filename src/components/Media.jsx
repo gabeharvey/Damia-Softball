@@ -27,7 +27,7 @@ function Media() {
         bgPosition="center"
         bgRepeat="no-repeat"
     > 
-      <Heading fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Passion One', sans-serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive" mb="5">
         Media Coverage
       </Heading>
       <Flex direction="column" alignItems="center" width="100%">
@@ -37,7 +37,7 @@ function Media() {
             w={{ base: '90%', md: '500px' }}
             h="120px"
             m="5"
-            bgColor="#ebebeb"
+            bgColor="#FFFFFF"
             borderRadius="12px"
             borderWidth="4px"
             borderColor="#005A9C"

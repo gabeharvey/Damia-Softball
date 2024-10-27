@@ -88,13 +88,13 @@ const Navbar = () => {
                         offset={-100}
                         duration={500}
                         fontSize={{ base: '3xl', md: '4xl' }}
-                        fontFamily="'Passion One', sans-serif"
+                        fontFamily="'Pacifico', cursive"
                         color="#F5F5DC"
                         letterSpacing="wider"
                         mb={isMobile ? 2 : 0}
                         style={{ cursor: 'pointer' }}
                     >
-                        Damia McGarity #5
+                        Damia McGarity
                     </Heading>
                 </Flex>
                 <Spacer />

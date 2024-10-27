@@ -16,7 +16,7 @@ function Contact() {
       bgPosition="center"
       bgRepeat="no-repeat"
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Passion One', sans-serif">
+      <Heading fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive">
         Contact Us
       </Heading>
       
@@ -36,12 +36,12 @@ function Contact() {
       >
         <Grid gap={4}>
           <FormControl id="name">
-            <FormLabel color="#F5F5DC" fontFamily="'Passion One', sans-serif">
+            <FormLabel color="#F5F5DC" fontFamily="'Pacifico', cursive">
               Name
             </FormLabel>
             <Input
               placeholder="Your Name"
-              bgColor="#ebebeb"
+              bgColor="#FFFFFF"
               color="#38383d"
               borderRadius="8px"
               _placeholder={{ color: 'gray.500' }}
@@ -49,13 +49,13 @@ function Contact() {
           </FormControl>
 
           <FormControl id="email">
-            <FormLabel color="#F5F5DC" fontFamily="'Passion One', sans-serif">
+            <FormLabel color="#F5F5DC" fontFamily="'Pacifico', cursive">
               Email
             </FormLabel>
             <Input
               type="email"
               placeholder="Your Email"
-              bgColor="#ebebeb"
+              bgColor="#FFFFFF"
               color="#38393d"
               borderRadius="8px"
               _placeholder={{ color: 'gray.500' }}
@@ -63,12 +63,12 @@ function Contact() {
           </FormControl>
 
           <FormControl id="message">
-            <FormLabel color="#F5F5DC" fontFamily="'Passion One', sans-serif">
+            <FormLabel color="#F5F5DC" fontFamily="'Pacifico', cursive">
               Message
             </FormLabel>
             <Textarea
               placeholder="Your Message"
-              bgColor="#ebebeb"
+              bgColor="#FFFFFF"
               color="#38393d"
               borderRadius="8px"
               _placeholder={{ color: 'gray.500' }}
@@ -83,7 +83,7 @@ function Contact() {
             minW="100%"
             maxW="45%"
             alignSelf="center"
-            fontFamily="'Passion One', sans-serif"
+            fontFamily="'Pacifico', cursive"
             fontWeight="medium"
             fontSize="xl"
             borderRadius="8px"

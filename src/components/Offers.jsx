@@ -28,7 +28,7 @@ function Offers() {
       bgRepeat="no-repeat"
       mt={12}
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Passion One', sans-serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive" mb="5">
         Scholarship Offers
       </Heading>
       <Flex
@@ -43,8 +43,8 @@ function Offers() {
             h="150px"
             minW="320px"
             m="5"
-            bgColor="#ebebeb"
-            bgImage="linear-gradient(-45deg, #ebebeb 25%, transparent 25%, transparent 50%, #ebebeb 50%, #ebebeb 75%, transparent 75%, transparent)"
+            bgColor="#FFFFFF"
+            bgImage="linear-gradient(-45deg, #FFFFFF 25%, transparent 25%, transparent 50%, #FFFFFF 50%, #FFFFFF 75%, transparent 75%, transparent)"
             bgSize="1px 1px"
             borderRadius="12px"
             borderWidth="5px"
@@ -66,7 +66,7 @@ function Offers() {
               mr={4}
             />
             <Box>
-              <Text color="#38393d" fontWeight="bold" fontFamily="'Passion One', sans-serif" fontSize="lg">
+              <Text color="#38393d" fontWeight="bold" fontFamily="'Pacifico', cursive" fontSize="lg">
                 {offer.schoolName}
               </Text>
               <Text color="#38393d" fontFamily="'Roboto+Condensed', system-ui" fontSize="md" fontWeight="semibold" mt={1}>
