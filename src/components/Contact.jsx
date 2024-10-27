@@ -11,12 +11,12 @@ function Contact() {
       justify="center"
       p={{ base: 5, md: 10 }}
       minH="100vh" 
-      bgImage="url('/softball.png')" 
+      // bgImage="url('/softball.png')" 
       bgSize="80%" 
       bgPosition="center"
       bgRepeat="no-repeat"
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive">
+      <Heading fontSize="3xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive">
         Contact Us
       </Heading>
       

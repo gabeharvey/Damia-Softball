@@ -32,7 +32,7 @@ function PlayerProfile() {
       bgPosition="center"
       bgRepeat="no-repeat"
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive" mb="5">
+      <Heading fontSize="3xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive" mb="5">
         {player.name}
       </Heading>
       <Flex flexDirection="row" flexWrap="wrap" justifyContent="center" alignItems="center">

@@ -28,7 +28,7 @@ function Offers() {
       bgRepeat="no-repeat"
       mt={12}
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive" mb="5">
+      <Heading fontSize="3xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive" mb="5">
         Scholarship Offers
       </Heading>
       <Flex

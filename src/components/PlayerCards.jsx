@@ -137,10 +137,10 @@ function PlayerCards() {
       mt={{ base: 12, md: 16 }} 
       mb={{ base: 12, md: 16 }} 
     >
-      <Text fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive">
+      <Text fontSize="3xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive">
         Player Cards    
       </Text>
-      <Text fontSize="2xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive">
+      <Text fontSize="xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive">
         Click on card for more info
         </Text>
 

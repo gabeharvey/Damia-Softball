@@ -94,7 +94,7 @@ const Navbar = () => {
                         mb={isMobile ? 2 : 0}
                         style={{ cursor: 'pointer' }}
                     >
-                        Damia McGarity
+                        Damia McGarity #5
                     </Heading>
                 </Flex>
                 <Spacer />

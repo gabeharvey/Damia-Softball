@@ -78,7 +78,7 @@ function SoftballStatTracker() {
       bgRepeat="no-repeat"
       mt={16}
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive">
+      <Heading fontSize="3xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive">
         Softball Stat Tracker
       </Heading>
       <Flex gap={4} mb={6} justifyContent="center">

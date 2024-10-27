@@ -25,7 +25,7 @@ function Academics() {
         bgPosition="center"
         bgRepeat="no-repeat"
         >
-      <Heading fontSize="4xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive" mb="5">
+      <Heading fontSize="3xl" fontWeight="medium" color="#EF3E42" fontFamily="'Pacifico', cursive" mb="5">
         Academics
       </Heading>
       <Flex direction="column" alignItems="center" width="100%">
