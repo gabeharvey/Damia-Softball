@@ -10,7 +10,7 @@ function Contact() {
       align="center"
       justify="center"
       p={{ base: 5, md: 10 }}
-      minH="100vh" 
+      minH="70vh" 
       // bgImage="url('/softball.png')" 
       bgSize="80%" 
       bgPosition="center"
