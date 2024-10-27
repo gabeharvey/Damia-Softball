@@ -87,9 +87,9 @@ const Navbar = () => {
                         smooth={true}
                         offset={-100}
                         duration={500}
-                        fontSize={{ base: '3xl', md: '4xl' }}
+                        fontSize={{ base: '2xl', md: '3xl' }}
                         fontFamily="'Pacifico', cursive"
-                        color="#F5F5DC"
+                        color="#FFFFFF"
                         letterSpacing="wider"
                         mb={isMobile ? 2 : 0}
                         style={{ cursor: 'pointer' }}
@@ -103,19 +103,19 @@ const Navbar = () => {
                     icon={
                         showCloseIcon ? (
                             <motion.div
-                                whileHover={{ scale: 1.2, color: '#F5F5DC' }}
+                                whileHover={{ scale: 1.2, color: '#FFFFFF' }}
                                 animate={{ y: [0, -5, 0] }}
                                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
-                                style={{ color: '#F5F5DC' }}
+                                style={{ color: '#FFFFFF' }}
                             >
                                 <CloseIcon />
                             </motion.div>
                         ) : (
                             <motion.div
-                                whileHover={{ scale: 1.2, color: '#F5F5DC' }}
+                                whileHover={{ scale: 1.2, color: '#FFFFFF' }}
                                 animate={{ y: [0, -5, 0] }}
                                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
-                                style={{ color: '#F5F5DC' }}
+                                style={{ color: '#FFFFFF' }}
                             >
                                 <CgMenuGridO />
                             </motion.div>
@@ -151,7 +151,7 @@ const Navbar = () => {
                             duration={500}
                             fontSize="lg"
                             fontWeight="extrabold"
-                            color="#F5F5DC"
+                            color="#FFFFFF"
                             position="relative"
                             _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#EF3E42' }}
                             _after={{
@@ -185,7 +185,7 @@ const Navbar = () => {
                             p="1rem"
                             borderTopLeftRadius="30px"
                             borderBottomLeftRadius="30px"
-                            color="#F5F5DC"
+                            color="#FFFFFF"
                             height="100%"
                             boxShadow="0 0 20px rgba(0, 0, 0, 0.9)"
                         >
@@ -195,7 +195,7 @@ const Navbar = () => {
                                 </Text>
                                 <IconButton
                                     icon={<CloseIcon w={6} h={6} />}
-                                    color="#F5F5DC"
+                                    color="#FFFFFF"
                                     aria-label="Close Menu"
                                     variant="outline"
                                     onClick={onClose}
@@ -220,7 +220,7 @@ const Navbar = () => {
                                         duration={500}
                                         fontSize="lg"
                                         fontWeight="extrabold"
-                                        color="#F5F5DC"
+                                        color="#FFFFFF"
                                         position="relative"
                                         _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#EF3E42' }}
                                         style={{ cursor: 'pointer' }}

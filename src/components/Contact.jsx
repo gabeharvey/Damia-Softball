@@ -36,7 +36,7 @@ function Contact() {
       >
         <Grid gap={4}>
           <FormControl id="name">
-            <FormLabel color="#F5F5DC" fontFamily="'Pacifico', cursive">
+            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive">
               Name
             </FormLabel>
             <Input
@@ -49,7 +49,7 @@ function Contact() {
           </FormControl>
 
           <FormControl id="email">
-            <FormLabel color="#F5F5DC" fontFamily="'Pacifico', cursive">
+            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive">
               Email
             </FormLabel>
             <Input
@@ -63,7 +63,7 @@ function Contact() {
           </FormControl>
 
           <FormControl id="message">
-            <FormLabel color="#F5F5DC" fontFamily="'Pacifico', cursive">
+            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive">
               Message
             </FormLabel>
             <Textarea
@@ -79,7 +79,7 @@ function Contact() {
           <Button
             mt={4}
             bgColor="#005A9C"
-            color="#F5F5DC"
+            color="#FFFFFF"
             minW="100%"
             maxW="45%"
             alignSelf="center"
@@ -89,7 +89,7 @@ function Contact() {
             borderRadius="8px"
             borderColor="#005A9C"
             borderWidth="3px"
-            _hover={{ borderColor: '#F5F5DC' }}
+            _hover={{ borderColor: '#FFFFFF' }}
           >
             Submit
           </Button>

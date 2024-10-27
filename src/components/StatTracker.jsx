@@ -92,7 +92,7 @@ function SoftballStatTracker() {
           borderWidth="4px"
         >
           <Text 
-            color="#F5F5DC" 
+            color="#FFFFFF" 
             fontWeight="bold" 
             fontFamily="'Pacifico', cursive" 
             fontSize="md"
@@ -100,11 +100,11 @@ function SoftballStatTracker() {
           >
             Softball Stats
           </Text>
-          <Text color="#F5F5DC">Hits: {averages.hits}</Text>
-          <Text color="#F5F5DC">Home Runs: {averages.homeRuns}</Text>
-          <Text color="#F5F5DC">RBIs: {averages.RBIs}</Text>
-          <Text color="#F5F5DC">Stolen Bases: {averages.stolenBases}</Text>
-          <Text color="#F5F5DC">Batting Average: {averages.battingAverage}</Text>
+          <Text color="#FFFFFF">Hits: {averages.hits}</Text>
+          <Text color="#FFFFFF">Home Runs: {averages.homeRuns}</Text>
+          <Text color="#FFFFFF">RBIs: {averages.RBIs}</Text>
+          <Text color="#FFFFFF">Stolen Bases: {averages.stolenBases}</Text>
+          <Text color="#FFFFFF">Batting Average: {averages.battingAverage}</Text>
         </MotionBox>
       </Flex>
       <MotionBox
@@ -120,10 +120,10 @@ function SoftballStatTracker() {
         transition={{ duration: 5, ease: 'easeOut' }}
       >
         <Heading fontSize="lg" color="#000000" fontFamily="'Pacifico', cursive" mb={4}>
-          Match Stats:
+          Game Stats:
         </Heading>
         {games.length === 0 ? (
-          <Text color="#000000">No matches added yet.</Text>
+          <Text color="#000000">No games added yet.</Text>
         ) : (
           <Grid gap={4}>
             {games.map((game, index) => (
@@ -160,7 +160,7 @@ function SoftballStatTracker() {
       >
         <VStack spacing={4} align="stretch">
           <FormControl>
-            <FormLabel color="#F5F5DC" fontFamily="'Pacifico', cursive" fontSize="lg">
+            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive" fontSize="lg">
               Opponent
             </FormLabel>
             <Input
@@ -173,7 +173,7 @@ function SoftballStatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#F5F5DC" fontFamily="'Pacifico', cursive" fontSize="lg">
+            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive" fontSize="lg">
               Date
             </FormLabel>
             <Input
@@ -186,7 +186,7 @@ function SoftballStatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#F5F5DC" fontFamily="'Pacifico', cursive" fontSize="lg">
+            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive" fontSize="lg">
               Hits
             </FormLabel>
             <Input
@@ -200,7 +200,7 @@ function SoftballStatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#F5F5DC" fontFamily="'Pacifico', cursive" fontSize="lg">
+            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive" fontSize="lg">
               Home Runs
             </FormLabel>
             <Input
@@ -214,7 +214,7 @@ function SoftballStatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#F5F5DC" fontFamily="'Pacifico', cursive" fontSize="lg">
+            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive" fontSize="lg">
               RBIs
             </FormLabel>
             <Input
@@ -228,7 +228,7 @@ function SoftballStatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#F5F5DC" fontFamily="'Pacifico', cursive" fontSize="lg">
+            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive" fontSize="lg">
               Stolen Bases
             </FormLabel>
             <Input
@@ -242,7 +242,7 @@ function SoftballStatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#F5F5DC" fontFamily="'Pacifico', cursive" fontSize="lg">
+            <FormLabel color="#FFFFFF" fontFamily="'Pacifico', cursive" fontSize="lg">
               Batting Average
             </FormLabel>
             <Input
@@ -260,7 +260,7 @@ function SoftballStatTracker() {
             onClick={handleAddGame}
             mt={4}
             bgColor="#005A9C"
-            color="#F5F5DC"
+            color="#FFFFFF"
             minW="100%"
             maxW="45%"
             alignSelf="center"
@@ -270,7 +270,7 @@ function SoftballStatTracker() {
             borderRadius="8px"
             borderColor="#005A9C"
             borderWidth="3px"
-            _hover={{ borderColor: '#F5F5DC' }}
+            _hover={{ borderColor: '#FFFFFF' }}
           >
             Add Game
           </Button>
